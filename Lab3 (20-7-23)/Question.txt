@@ -1,0 +1,11 @@
+1. write a program in c to suffle two strings in a string.
+
+	input: str1 = "Sakib", str2="Hasan"
+	Output: str3="SHaaksiabn"
+
+2. Write a program to concatenate two strings into one string.
+
+3. Write a program to find the index of a substring or pattern from a string. 
+	
+	input: str="Sakib Ullah Hasan" , pattern="Ullah"
+	Output: index at 6.

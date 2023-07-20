@@ -37,9 +37,9 @@ int main()
         k++;
     }
 
-    for (int index = 0; index < (size1 + size2); index++)
+    for (int ind = 0; ind < (size1 + size2); ind++)
     {
-        printf("%d ", array3[index]);
+        printf("%d ", array3[ind]);
     }
     printf("\n");
 
