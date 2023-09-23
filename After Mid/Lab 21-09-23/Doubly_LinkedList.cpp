@@ -10,7 +10,7 @@ struct node
 
 int main()
 {
-    struct head *head=NULL;
+    struct node *head=NULL; // Change 'struct head' to 'struct node' for the head pointer
     struct node *first=NULL;
     struct node *second=NULL;
     struct node *third=NULL;
@@ -34,10 +34,9 @@ int main()
 
     while(head!=NULL)
     {
-        cout<<"head value";
+        cout << "Value: " << head->value << endl;
         head=head->nextadd;
     }
 
     return 0;
 }
-
